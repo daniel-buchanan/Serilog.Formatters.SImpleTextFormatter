@@ -11,10 +11,14 @@
     <ProjectUrl>https://github.com/daniel-buchanan/Serilog.Formatting.SimpleTextFormatter</ProjectUrl>
     <IconUrl></IconUrl>
     <Tags>Serilog format simple</Tags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Serilog" Version="3.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 </Project>

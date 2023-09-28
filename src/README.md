@@ -13,3 +13,5 @@ To use this formatter when specifying your sink do the following:
 ```csharp
   .WriteTo.Console(formatter: new SimpleTextFormatter())
 ```
+
+The code is located here: https://github.com/daniel-buchanan/Serilog.Formatting.SimpleTextFormatter
