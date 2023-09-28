@@ -16,7 +16,7 @@ namespace Serilog.Formatting.Display
             if (logEvent.Exception == null) return;
 
             var e = logEvent.Exception;
-            Write(e?.Message);
+            Write(e?.Message, output);
             Write(e?.StackTrace, output);
         }
 
